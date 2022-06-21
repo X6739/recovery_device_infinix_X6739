@@ -25,12 +25,12 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-mtkimpl.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
-    bootctrl \
+    bootctl \
     update_engine_client
 
 PRODUCT_PACKAGES += \
-    bootctrl.mt6893 \
-    bootctrl.mt6893.recovery
+    bootctrl.$(PRODUCT_PLATFORM) \
+    bootctrl.$(PRODUCT_PLATFORM).recovery
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
