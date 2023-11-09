@@ -7,8 +7,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_ck9n_h933.mk
-
-COMMON_LUNCH_CHOICES := \
-    twrp_ck9n_h933-user \
-    twrp_ck9n_h933-userdebug \
-    twrp_ck9n_h933-eng
