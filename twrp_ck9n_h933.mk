@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TECNO-CK9n device
 $(call inherit-product, device/tecno/ck9n_h933/device.mk)
 
 PRODUCT_DEVICE := ck9n_h933
-PRODUCT_NAME := omni_ck9n_h933
+PRODUCT_NAME := twrp_ck9n_h933
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO CAMON 20 Premier 5G
 PRODUCT_MANUFACTURER := TECNO
