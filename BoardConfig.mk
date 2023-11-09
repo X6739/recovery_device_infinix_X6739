@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-CK9n
+DEVICE_PATH := device/tecno/ck9n_h933
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -76,8 +76,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := TECNO-CK9n_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/TECNO-CK9n
+TARGET_KERNEL_CONFIG := ck9n_h933_defconfig
+TARGET_KERNEL_SOURCE := kernel/tecno/ck9n_h933
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

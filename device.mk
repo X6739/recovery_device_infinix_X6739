@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tecno/TECNO-CK9n
+LOCAL_PATH := device/tecno/ck9n_h933
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \

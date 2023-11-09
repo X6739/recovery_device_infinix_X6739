@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from TECNO-CK9n device
-$(call inherit-product, device/tecno/TECNO-CK9n/device.mk)
+$(call inherit-product, device/tecno/ck9n_h933/device.mk)
 
-PRODUCT_DEVICE := TECNO-CK9n
-PRODUCT_NAME := omni_TECNO-CK9n
+PRODUCT_DEVICE := ck9n_h933
+PRODUCT_NAME := omni_ck9n_h933
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO CAMON 20 Premier 5G
 PRODUCT_MANUFACTURER := TECNO
