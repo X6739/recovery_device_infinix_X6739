@@ -177,3 +177,7 @@ TW_EXCLUDE_APEX := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# StatusBar
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CLOCK_POS := "300"
