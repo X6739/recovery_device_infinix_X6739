@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tecno/ck9n_h933
+LOCAL_PATH := device/tecno/CK9n
 
 # Virtual A/B
 ENABLE_VIRTUAL_AB := true

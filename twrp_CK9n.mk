@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TECNO-CK9n device
-$(call inherit-product, device/tecno/ck9n_h933/device.mk)
+$(call inherit-product, device/tecno/CK9n/device.mk)
 
-PRODUCT_DEVICE := ck9n_h933
-PRODUCT_NAME := twrp_ck9n_h933
+PRODUCT_DEVICE := CK9n
+PRODUCT_NAME := twrp_CK9n
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO CAMON 20 Premier 5G
 PRODUCT_MANUFACTURER := TECNO

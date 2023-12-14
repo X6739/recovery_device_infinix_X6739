@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/ck9n_h933
+DEVICE_PATH := device/tecno/CK9n
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -58,7 +58,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO-CK9n,ck9n_h933
+TARGET_OTA_ASSERT_DEVICE := TECNO-CK9n,CK9n
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := TECNO-CK9n
@@ -89,8 +89,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := ck9n_h933_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/ck9n_h933
+TARGET_KERNEL_CONFIG := CK9n_defconfig
+TARGET_KERNEL_SOURCE := kernel/tecno/CK9n
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
