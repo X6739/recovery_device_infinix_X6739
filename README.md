@@ -32,4 +32,4 @@ Extras                         | Stereo speakers, NFC, USB Type-C 2.0, OTG
 
 ## Device picture
 
-![TECNO CAMON 20 Premier 5G](https://www.yugatech.com/wp-content/uploads/2023/11/tecno-camon-20-pro-5G-FI-768x432.jpg "TECNO CAMON 20 Premier 5G in Dark Welkin & Serenity Blue")
+![TECNO CAMON 20 Premier 5G](https://i.imgur.com/gYbjIVh.jpeg "TECNO CAMON 20 Premier 5G in Dark Welkin & Serenity Blue")
