@@ -1,4 +1,4 @@
-# Android device tree for Infinix HOT 40 Pro (X6837)
+# Android device tree for Infinix GT 10 Pro (X6739)
 
 Blocking checks
 - [x] Correct screen/recovery size

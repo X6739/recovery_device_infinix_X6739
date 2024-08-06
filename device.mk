@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/X6837
+LOCAL_PATH := device/infinix/X6739
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
